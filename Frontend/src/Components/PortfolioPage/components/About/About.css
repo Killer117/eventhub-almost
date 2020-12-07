@@ -1,0 +1,84 @@
+.portfolio_about {
+  background-color: #e1e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.portfolio_about__title {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 50px;
+}
+.portfolio_about__contentBox {
+  width: 60%;
+  color: #666;
+}
+.portfolio_about__content {
+  text-align: center;
+}
+.portfolio_about__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 900px;
+}
+.portfolio_about__details__one {
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.portfolio_about__details__one p {
+  width: 200px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.portfolio_about__details__one p:hover {
+  color: #198dfa;
+}
+.portfolio_about__details__two {
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.portfolio_about__details__two p {
+  width: 200px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.portfolio_about__details__two p:hover {
+  color: #198dfa;
+}
+.portfolio_about__details__one p > small {
+  font-size: 1rem;
+  color: #198dfa;
+}
+
+.portfolio_about__details__two p > small {
+  font-size: 1rem;
+  color: #198dfa;
+}
+.portfolio_about__details__one p > small:hover {
+  color: #000;
+}
+
+.portfolio_about__details__two p > small:hover {
+  font-size: 1rem;
+  color: #000;
+}

@@ -1,0 +1,7 @@
+{
+    "env":{
+        "DB_USER":"eventhub",
+        "DB_PASSWORD":"eventhub",
+        "DB_NAME":"EventHub"
+    }
+}
